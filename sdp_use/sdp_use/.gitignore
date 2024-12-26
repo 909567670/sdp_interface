@@ -1,0 +1,5 @@
+include/*
+lib/*
+models/*
+.qtc_clangd/
+**/*.onnx
