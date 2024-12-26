@@ -4,4 +4,13 @@ vit和sdp模型
 
 vit: img -> sid
 
-sdp: img,sid -> status [-1,0,1]
+sdp: img,sid -> logits 
+
+## ORT 
+完整实现
+
+## OpenCV (旧)
+vit输出图像特征, 需配合聚类中心npy文件, 计算sid
+
+## TRT
+只实现sdp, 输出logits异常
