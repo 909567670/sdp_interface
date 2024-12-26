@@ -16,6 +16,6 @@ vit输出图像特征, 需配合聚类中心npy文件, 计算sid
 只实现sdp, 输出logits异常
 
 ## 库版本
-- OpenCV: 490 (cuda)
+- OpenCV: 4.9.0 (cuda)
 - TRT: 8.6.1.6
 - ORT: 1.17.1_cuda12
